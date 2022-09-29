@@ -1,0 +1,24 @@
+.card{
+    width: 20%;
+    display: inline-block;
+    margin: 2%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.card img{
+    width: 100%;
+
+}
+.parent{
+
+    border: 10px solid red;
+}
+
+@media (max-width:1083px){
+    .card{
+        width: 40%;
+        margin: 4%;
+    }
+}
+
+@media
